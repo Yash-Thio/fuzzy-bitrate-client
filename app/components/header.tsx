@@ -41,7 +41,7 @@ const Header = ({ isLoading }: HeaderProps) => {
       className="mb-8 md:mb-12"
     >
       {/* Top Status Bar */}
-      <div className="flex items-center justify-between px-3 md:px-4 py-2 mb-4 border-b border-[rgba(0,217,255,0.15)] bg-gradient-to-r from-[rgba(0,217,255,0.02)] to-transparent">
+      <div className="flex items-center justify-between px-3 md:px-4 py-2 mb-4 border-b border-[rgba(0,217,255,0.15)] bg-linear-to-r from-[rgba(0,217,255,0.02)] to-transparent">
         <div className="flex items-center gap-2">
           <motion.div
             animate={{ scale: [1, 1.2, 1] }}

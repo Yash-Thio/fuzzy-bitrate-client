@@ -1,6 +1,6 @@
 "use client";
 
-import React, { type ComponentType } from "react";
+import { type ComponentType } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { FiCode, FiTrendingUp, FiCpu } from "react-icons/fi";

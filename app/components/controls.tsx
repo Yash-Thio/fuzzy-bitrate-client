@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, type Dispatch, type SetStateAction } from "react";
+import { useState, type Dispatch, type SetStateAction } from "react";
 import { motion } from "framer-motion";
 import { FaQuestionCircle } from "react-icons/fa";
 

@@ -18,6 +18,8 @@ type ControlsProps = {
   setMode: Dispatch<SetStateAction<"random" | "real" | "manual">>;
   manualInputs: ManualInputs;
   setManualInputs: Dispatch<SetStateAction<ManualInputs>>;
+  engineSelection?: "fuzzy" | "baseline";
+  setEngineSelection?: Dispatch<SetStateAction<"fuzzy" | "baseline">>;
 };
 
 const Controls = ({
@@ -25,6 +27,8 @@ const Controls = ({
   setMode,
   manualInputs,
   setManualInputs,
+  engineSelection = "fuzzy",
+  setEngineSelection,
 }: ControlsProps) => {
   const [isHelpModalOpen, setIsHelpModalOpen] = useState(false);
   const isManual = mode === "manual";
@@ -57,6 +61,17 @@ const Controls = ({
             >
               <FaQuestionCircle /> Help
             </motion.button>
+            {setEngineSelection && (
+              <select
+                aria-label="Engine selection"
+                value={engineSelection}
+                onChange={(e) => setEngineSelection(e.target.value as "fuzzy" | "baseline")}
+                className="ml-2 rounded-md border bg-black/30 px-2 py-1 text-sm text-white"
+              >
+                <option value="fuzzy">Fuzzy Engine</option>
+                <option value="baseline">Baseline Engine</option>
+              </select>
+            )}
           </div>
         </div>
 

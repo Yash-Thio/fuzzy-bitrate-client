@@ -28,6 +28,10 @@ export const FUZZY_ENGINE_API =
   process.env.FUZZY_ENGINE_API ??
   "https://fuzzy-bitrate.onrender.com/get-bitrate";
 
+export const FUZZY_BASELINE_API =
+  process.env.FUZZY_BASELINE_API ??
+  "https://fuzzy-bitrate.onrender.com/get-bitrate-baseline";
+
 export const FUZZY_HEALTH_API =
   process.env.FUZZY_HEALTH_API ?? "https://fuzzy-bitrate.onrender.com/health";
 
@@ -76,6 +80,41 @@ export async function fetchFuzzyBitrateDecision(
     return {
       bitrate: typeof data.bitrate === "number" ? data.bitrate : 360,
       source: "fuzzy_engine",
+    };
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : "unknown error";
+    return {
+      bitrate: 360,
+      source: `fallback (${message})`,
+    };
+  }
+}
+
+export async function fetchBaselineBitrateDecision(
+  conditions: NetworkConditions,
+): Promise<FuzzyDecision> {
+  try {
+    const response = await fetch(FUZZY_BASELINE_API, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        bandwidth: conditions.bandwidth,
+        buffer: conditions.buffer,
+        delay: conditions.delay,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`Upstream responded with ${response.status}`);
+    }
+
+    const data = (await response.json()) as { bitrate?: number };
+
+    return {
+      bitrate: typeof data.bitrate === "number" ? data.bitrate : 360,
+      source: "baseline_engine",
     };
   } catch (error: unknown) {
     const message = error instanceof Error ? error.message : "unknown error";

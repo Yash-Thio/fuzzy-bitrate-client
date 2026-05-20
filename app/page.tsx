@@ -37,6 +37,7 @@ type AnalyticsState = {
 
 type NetworkResponse = {
   fuzzyBitrateDecision?: number;
+  source?: string;
 };
 
 type NetworkConditions = {
@@ -77,6 +78,7 @@ const calculateQoE = (
 
 export default function Page() {
   const [mode, setMode] = useState<Mode>("random");
+  const [engineSelection, setEngineSelection] = useState<"fuzzy" | "baseline">("fuzzy");
   const [networkData, setNetworkData] = useState<NetworkDataPoint[]>([]);
   const [fuzzyDecision, setFuzzyDecision] = useState(360);
   const [currentPlayingBitrate, setCurrentPlayingBitrate] = useState(360);
@@ -186,7 +188,8 @@ export default function Page() {
             bandwidth,
             buffer,
             delay,
-          } satisfies NetworkConditions),
+            engine: engineSelection,
+          } satisfies NetworkConditions & { engine?: string }),
         });
 
         if (!response.ok) {
@@ -269,6 +272,8 @@ export default function Page() {
             setMode={setMode}
             manualInputs={manualInputs}
             setManualInputs={setManualInputs}
+            engineSelection={engineSelection}
+            setEngineSelection={setEngineSelection}
           />
 
           <AnalyticsDashboard

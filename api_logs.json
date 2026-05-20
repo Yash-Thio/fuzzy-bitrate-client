@@ -1,0 +1,458 @@
+[
+  {
+    "timestamp": "2026-05-20T12:36:25.988Z",
+    "inputs": {
+      "bandwidth": 7.24347385669051,
+      "buffer": 0,
+      "delay": 165.90729789904694
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:22.987Z",
+    "inputs": {
+      "bandwidth": 5.949885132184997,
+      "buffer": 0,
+      "delay": 116.41933275100524
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:21.120Z",
+    "inputs": {
+      "bandwidth": 6.201207224189014,
+      "buffer": 53.19,
+      "delay": 67.46016770343181
+    },
+    "output": {
+      "bitrate": 962.99,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:19.986Z",
+    "inputs": {
+      "bandwidth": 5.231463138725638,
+      "buffer": 0,
+      "delay": 146.08048708110533
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:18.140Z",
+    "inputs": {
+      "bandwidth": 7.59571400473545,
+      "buffer": 56.19,
+      "delay": 103.55417571805228
+    },
+    "output": {
+      "bitrate": 981.95,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:17.069Z",
+    "inputs": {
+      "bandwidth": 4.918002864943189,
+      "buffer": 0,
+      "delay": 108.6962346084867
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:16.924Z",
+    "inputs": {
+      "bandwidth": 3.826660932872125,
+      "buffer": 0,
+      "delay": 147.94143245430575
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:16.481Z",
+    "inputs": {
+      "bandwidth": 5.432845829468315,
+      "buffer": 0,
+      "delay": 122.76222887380082
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:15.128Z",
+    "inputs": {
+      "bandwidth": 9.18777567393432,
+      "buffer": 59.19,
+      "delay": 62.97212818823537
+    },
+    "output": {
+      "bitrate": 989.83,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:15.092Z",
+    "inputs": {
+      "bandwidth": 10,
+      "buffer": 59.23,
+      "delay": 99.73654988614688
+    },
+    "output": {
+      "bitrate": 986.96,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:13.156Z",
+    "inputs": {
+      "bandwidth": 9.761815330791396,
+      "buffer": 61.18,
+      "delay": 60.17015452881776
+    },
+    "output": {
+      "bitrate": 986.86,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:12.072Z",
+    "inputs": {
+      "bandwidth": 9.0020246083295,
+      "buffer": 64.25,
+      "delay": 36.27823745082341
+    },
+    "output": {
+      "bitrate": 988.78,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:11.877Z",
+    "inputs": {
+      "bandwidth": 7.7235711324490985,
+      "buffer": 7.9,
+      "delay": 10
+    },
+    "output": {
+      "bitrate": 925.87,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:11.874Z",
+    "inputs": {
+      "bandwidth": 6.113436537213291,
+      "buffer": 0,
+      "delay": 30.369641298714278
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:11.799Z",
+    "inputs": {
+      "bandwidth": 6.784491985740413,
+      "buffer": 0,
+      "delay": 83.22183849664933
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:11.796Z",
+    "inputs": {
+      "bandwidth": 6.000263963263839,
+      "buffer": 0,
+      "delay": 39.20478496154585
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:36:11.754Z",
+    "inputs": {
+      "bandwidth": 6.956185863427958,
+      "buffer": 0,
+      "delay": 71.82929668812616
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:24.816Z",
+    "inputs": {
+      "bandwidth": 4.474343896865983,
+      "buffer": 48.08,
+      "delay": 10
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:21.924Z",
+    "inputs": {
+      "bandwidth": 5.571157998656966,
+      "buffer": 51.01,
+      "delay": 10
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:21.736Z",
+    "inputs": {
+      "bandwidth": 6.597625750406652,
+      "buffer": 51.08,
+      "delay": 10
+    },
+    "output": {
+      "bitrate": 968.72,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:20.617Z",
+    "inputs": {
+      "bandwidth": 6.34909180235983,
+      "buffer": 52.21,
+      "delay": 10
+    },
+    "output": {
+      "bitrate": 965.16,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:17.595Z",
+    "inputs": {
+      "bandwidth": 7.516048725267574,
+      "buffer": 12.72,
+      "delay": 10
+    },
+    "output": {
+      "bitrate": 980.97,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:17.573Z",
+    "inputs": {
+      "bandwidth": 7.5714453987256025,
+      "buffer": 12.26,
+      "delay": 45.18258830403527
+    },
+    "output": {
+      "bitrate": 971.15,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:16.682Z",
+    "inputs": {
+      "bandwidth": 7.8947146887480795,
+      "buffer": 56.28,
+      "delay": 56.56184173902108
+    },
+    "output": {
+      "bitrate": 982.68,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:13.628Z",
+    "inputs": {
+      "bandwidth": 6.828827684290822,
+      "buffer": 59.21,
+      "delay": 15.515598684938297
+    },
+    "output": {
+      "bitrate": 971.95,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:13.587Z",
+    "inputs": {
+      "bandwidth": 5.2724809788559925,
+      "buffer": 59.24,
+      "delay": 10
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:12.699Z",
+    "inputs": {
+      "bandwidth": 6.67246971802307,
+      "buffer": 60.12,
+      "delay": 39.32103557410626
+    },
+    "output": {
+      "bitrate": 969.78,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:09.686Z",
+    "inputs": {
+      "bandwidth": 6.5671795174046235,
+      "buffer": 63.19,
+      "delay": 32.91883411774878
+    },
+    "output": {
+      "bitrate": 968.29,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:09.660Z",
+    "inputs": {
+      "bandwidth": 5.038063960564448,
+      "buffer": 63.23,
+      "delay": 32.01448266780119
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:08.632Z",
+    "inputs": {
+      "bandwidth": 5.655747481223236,
+      "buffer": 64.16,
+      "delay": 16.87168267006635
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:05.617Z",
+    "inputs": {
+      "bandwidth": 4.690340560402111,
+      "buffer": 6.78,
+      "delay": 42.121904333854204
+    },
+    "output": {
+      "bitrate": 668.86,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:05.567Z",
+    "inputs": {
+      "bandwidth": 4.169577466319662,
+      "buffer": 0,
+      "delay": 74.80052564160368
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:05.454Z",
+    "inputs": {
+      "bandwidth": 2.3458946910743306,
+      "buffer": 0,
+      "delay": 96.27990714199748
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:05.260Z",
+    "inputs": {
+      "bandwidth": 3.6657952354236136,
+      "buffer": 0,
+      "delay": 57.013302737547335
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:34:05.129Z",
+    "inputs": {
+      "bandwidth": 4.066107285696408,
+      "buffer": 0,
+      "delay": 57.27581567985264
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:33:19.193Z",
+    "inputs": {
+      "bandwidth": 9.389755391821678,
+      "buffer": 61.18,
+      "delay": 64.62588552105319
+    },
+    "output": {
+      "bitrate": 991.46,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:33:16.197Z",
+    "inputs": {
+      "bandwidth": 7.923004290978688,
+      "buffer": 64.25,
+      "delay": 98.73100646809371
+    },
+    "output": {
+      "bitrate": 985.8,
+      "source": "fuzzy_engine"
+    }
+  },
+  {
+    "timestamp": "2026-05-20T12:33:13.487Z",
+    "inputs": {
+      "bandwidth": 8.853779519088054,
+      "buffer": 6.76,
+      "delay": 146.03231489087202
+    },
+    "output": {
+      "bitrate": 360,
+      "source": "fuzzy_engine"
+    }
+  }
+]

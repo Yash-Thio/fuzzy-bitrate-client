@@ -65,7 +65,9 @@ const Controls = ({
               <select
                 aria-label="Engine selection"
                 value={engineSelection}
-                onChange={(e) => setEngineSelection(e.target.value as "fuzzy" | "baseline")}
+                onChange={(e) =>
+                  setEngineSelection(e.target.value as "fuzzy" | "baseline")
+                }
                 className="ml-2 rounded-md border bg-black/30 px-2 py-1 text-sm text-white"
               >
                 <option value="fuzzy">Fuzzy Engine</option>

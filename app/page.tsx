@@ -78,7 +78,9 @@ const calculateQoE = (
 
 export default function Page() {
   const [mode, setMode] = useState<Mode>("random");
-  const [engineSelection, setEngineSelection] = useState<"fuzzy" | "baseline">("fuzzy");
+  const [engineSelection, setEngineSelection] = useState<"fuzzy" | "baseline">(
+    "fuzzy",
+  );
   const [networkData, setNetworkData] = useState<NetworkDataPoint[]>([]);
   const [fuzzyDecision, setFuzzyDecision] = useState(360);
   const [currentPlayingBitrate, setCurrentPlayingBitrate] = useState(360);

@@ -9,16 +9,22 @@ export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   try {
-    const body = (await request.json()) as Partial<NetworkConditions & {
-      engine?: string;
-    }>;
+    const body = (await request.json()) as Partial<
+      NetworkConditions & {
+        engine?: string;
+      }
+    >;
     const bandwidth = Number(body.bandwidth);
     const buffer = Number(body.buffer);
     const delay = Number(body.delay);
-    const requestedEngine = typeof body.engine === "string" ? body.engine : "fuzzy";
+    const requestedEngine =
+      typeof body.engine === "string" ? body.engine : "fuzzy";
 
     if (!["fuzzy", "baseline"].includes(requestedEngine)) {
-      return Response.json({ error: "Invalid engine selection" }, { status: 400 });
+      return Response.json(
+        { error: "Invalid engine selection" },
+        { status: 400 },
+      );
     }
 
     if (![bandwidth, buffer, delay].every(Number.isFinite)) {
@@ -42,7 +48,10 @@ export async function POST(request: Request) {
       },
     });
 
-    return Response.json({ fuzzyBitrateDecision: decision.bitrate, source: decision.source });
+    return Response.json({
+      fuzzyBitrateDecision: decision.bitrate,
+      source: decision.source,
+    });
   } catch (error: unknown) {
     const message =
       error instanceof Error ? error.message : "Internal server error";
